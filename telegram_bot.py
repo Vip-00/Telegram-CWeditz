@@ -1,3 +1,9 @@
+from server import keep_alive
+
+# Start the web server to keep the bot alive
+keep_alive()
+
+# Your bot logic here
 import os
 from telegram import Update, InputFile
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
