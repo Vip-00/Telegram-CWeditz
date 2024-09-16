@@ -70,7 +70,7 @@ async def set_replacement_word(update: Update, context: ContextTypes.DEFAULT_TYP
 
 if __name__ == '__main__':
     # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-    app = ApplicationBuilder().token('YOUR_BOT_TOKEN').build()
+    app = ApplicationBuilder().token('7504169790:AAGzS8YTC9BCTfIRRtEU-ray7pEqndrlw5s').build()
 
     # Add command handlers
     app.add_handler(CommandHandler('start', start))
